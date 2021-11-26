@@ -1,0 +1,8 @@
+version = 1
+
+exclude_patterns = ["cpuinfo.py"]
+
+test_patterns = ["numcodecs/tests/**"]
+
+[[analyzers]]
+name = "python"
