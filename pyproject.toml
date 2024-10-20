@@ -156,6 +156,7 @@ extend-select = [
     "RET",
     "RSE",
     "RUF",
+    "SLOT",
     "UP",
 ]
 ignore = [
