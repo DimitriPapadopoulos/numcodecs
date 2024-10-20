@@ -49,9 +49,8 @@ class AsType(Codec):
         arr = ensure_ndarray(buf).view(self.decode_dtype)
 
         # convert and copy
-        enc = arr.astype(self.encode_dtype)
+        return arr.astype(self.encode_dtype)
 
-        return enc
 
     def decode(self, buf, out=None):
         # normalise input
@@ -61,9 +60,8 @@ class AsType(Codec):
         dec = enc.astype(self.decode_dtype)
 
         # handle output
-        out = ndarray_copy(dec, out)
+        return ndarray_copy(dec, out)
 
-        return out
 
     def get_config(self):
         return {

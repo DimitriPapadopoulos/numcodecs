@@ -85,9 +85,8 @@ class Delta(Codec):
         np.cumsum(enc, out=dec)
 
         # handle output
-        out = ndarray_copy(dec, out)
+        return ndarray_copy(dec, out)
 
-        return out
 
     def get_config(self):
         # override to handle encoding dtypes

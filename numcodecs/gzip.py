@@ -28,9 +28,8 @@ class GZip(Codec):
         compressed = io.BytesIO()
         with _gzip.GzipFile(fileobj=compressed, mode='wb', compresslevel=self.level) as compressor:
             compressor.write(buf)
-        compressed = compressed.getvalue()
+        return compressed.getvalue()
 
-        return compressed
 
     # noinspection PyMethodMayBeStatic
     def decode(self, buf, out=None):
