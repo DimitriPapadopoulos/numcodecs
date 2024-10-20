@@ -1,4 +1,4 @@
-from typing import Literal, Optional
+from typing import Literal
 
 import numcodecs
 import numcodecs.abc
@@ -45,7 +45,7 @@ class PCodec(numcodecs.abc.Codec):
     def __init__(
         self,
         level: int = 8,
-        delta_encoding_order: Optional[int] = None,
+        delta_encoding_order: int | None = None,
         equal_pages_up_to: int = 262144,
         # TODO one day, add support for the Try* mode specs
         mode_spec: Literal['auto', 'classic'] = 'auto',
