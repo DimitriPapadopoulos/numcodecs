@@ -141,6 +141,7 @@ extend-exclude = ["c-blosc"]
 extend-select = [
     "B",
     "EXE",
+    "FA",
     "FLY",
     "FURB",
     "G",
