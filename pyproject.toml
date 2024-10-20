@@ -159,6 +159,7 @@ extend-select = [
     "RUF",
     "SIM",
     "SLOT",
+    "TID",
     "UP",
 ]
 ignore = [
