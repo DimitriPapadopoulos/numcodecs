@@ -28,7 +28,7 @@ library. Wheels are available for most platforms.
 Installing a wheel or via conda will install a pre-compiled binary distribution.
 However, if you have a newer CPU that supports the AVX2 instruction set (e.g.,
 Intel Haswell, Broadwell or Skylake) then installing via pip is preferable,
-because you can compile the Blosc library from source with optimizations
+because you can compile the Blosc library from source with optimisations
 for AVX2.::
 
     $ pip install -v --no-cache-dir --no-binary numcodecs numcodecs
