@@ -14,8 +14,8 @@ to use whatever template makes sense.
 
 #### Problem description
 
-Explain why the current behavior is a problem, what the expected output/behavior
-is, and why the expected output/behavior is a better solution.
+Explain why the current behavior is a problem, what the expected output/behaviour
+is, and why the expected output/behaviour is a better solution.
 
 #### Version and installation information
 
