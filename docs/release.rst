@@ -294,7 +294,7 @@ Fixes
   the ``CRC32C`` codec used without the ``crc32c`` installed,
   the ``CRC32C`` codec is no longer defined at import time if
   ``crc32c`` is not installed. This has been changed to match
-  the behavior of other optional dependencies/codecs.
+  the behaviour of other optional dependencies/codecs.
   By :user:`John Kirkham <jakirkham>`, :issue:`637`
 
 Improvements
