@@ -230,7 +230,7 @@ code importing NumCodecs, or cause third party code to behave in a different way
 **backwards-compatible API change**. For example, adding a new function, class or method is usually
 a backwards-compatible change. However, removing a function, class or method; removing an argument
 to a function or method; adding a required argument to a function or method; or changing the
-behavior of a function or method, are examples of **backwards-incompatible API changes**.
+behaviour of a function or method, are examples of **backwards-incompatible API changes**.
 
 If a release contains no changes to the public API (e.g., contains only bug fixes or
 other maintenance work), then the micro version number should be incremented (e.g.,
