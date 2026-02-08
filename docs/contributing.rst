@@ -9,10 +9,10 @@ Asking for help
 ---------------
 
 If you have a question about how to use NumCodecs, please post your question on
-StackOverflow using the `"numcodecs" tag <https://stackoverflow.com/questions/tagged/numcodecs>`_.
+Stack Overflow using the `"numcodecs" tag <https://stackoverflow.com/questions/tagged/numcodecs>`_.
 If you don't get a response within a day or two, feel free to raise a `GitHub issue
 <https://github.com/zarr-developers/numcodecs/issues/new>`_ including a link to your
-StackOverflow question. We will try to respond to questions as quickly as possible, but
+Stack Overflow question. We will try to respond to questions as quickly as possible, but
 please bear in mind that there may be periods where we have limited time to answer
 questions due to other commitments.
 
@@ -46,7 +46,7 @@ a bug report:
     Python 3.8.15 | packaged by conda-forge | (default, Nov 22 2022, 08:49:06)
     [Clang 14.0.6 ] on darwin
 
-3. An explanation of why the current behaviour is wrong/not desired, and what you
+3. An explanation of why the current behavior is wrong/not desired, and what you
    expect instead.
 
 Enhancement proposals
@@ -230,7 +230,7 @@ code importing NumCodecs, or cause third party code to behave in a different way
 **backwards-compatible API change**. For example, adding a new function, class or method is usually
 a backwards-compatible change. However, removing a function, class or method; removing an argument
 to a function or method; adding a required argument to a function or method; or changing the
-behaviour of a function or method, are examples of **backwards-incompatible API changes**.
+behavior of a function or method, are examples of **backwards-incompatible API changes**.
 
 If a release contains no changes to the public API (e.g., contains only bug fixes or
 other maintenance work), then the micro version number should be incremented (e.g.,

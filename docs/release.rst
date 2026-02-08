@@ -257,7 +257,7 @@ Fixes
   By :user:`Norman Rzepka <normanrz>`, :issue:`664`
 * Cleanup ``PCodec`` soft dependency.
   Previously importing ``numcodecs.pcodec`` would work if ``pcodec`` is not installed,
-  but now it will fail to import. This mirrors the behaviour of other optional dependencies.
+  but now it will fail to import. This mirrors the behavior of other optional dependencies.
   By :user:`John Kirkham <jakirkham>`, :issue:`647`
 * Fixes issues with the upcoming ``zarr`` 3.0.0 release.
   By :user:`Norman Rzepka <normanrz>`, :issue:`675`
@@ -294,7 +294,7 @@ Fixes
   the ``CRC32C`` codec used without the ``crc32c`` installed,
   the ``CRC32C`` codec is no longer defined at import time if
   ``crc32c`` is not installed. This has been changed to match
-  the behaviour of other optional dependencies/codecs.
+  the behavior of other optional dependencies/codecs.
   By :user:`John Kirkham <jakirkham>`, :issue:`637`
 
 Improvements
@@ -507,7 +507,7 @@ Maintenance
 * Drop tox.
   By :user:`John Kirkham <jakirkham>`, :issue:`384`.
 
-* Update ReadTheDocs.
+* Update Read the Docs.
   By :user:`John Kirkham <jakirkham>`, :issue:`383`.
 
 * Use `conda-incubator/setup-miniconda@v2.2.0` (and use Conda on Linux).
