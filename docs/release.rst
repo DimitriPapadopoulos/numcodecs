@@ -507,7 +507,7 @@ Maintenance
 * Drop tox.
   By :user:`John Kirkham <jakirkham>`, :issue:`384`.
 
-* Update Read the Docs.
+* Update ReadTheDocs.
   By :user:`John Kirkham <jakirkham>`, :issue:`383`.
 
 * Use `conda-incubator/setup-miniconda@v2.2.0` (and use Conda on Linux).
