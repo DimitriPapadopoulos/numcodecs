@@ -397,7 +397,7 @@ Maintenance
 * Add numpy 2 compatibility.
   By :user:`David Stansby <dstansby>`, :issue:`535`
 * Update c-blosc to 1.21.0 to 1.21.5, zstd from 1.4.8 to 1.5.5,
-  lz4 from 1.9.3 to 1.9.4, and zlib from 1.2.8 to to 1.2.13
+  lz4 from 1.9.3 to 1.9.4, and zlib from 1.2.8 to 1.2.13
   By :user:`Mark Kittisopikul <mkitti>`, :issue:`500`
 
 
@@ -483,7 +483,7 @@ Maintenance
   By :user:`Dimitri Papadopoulos Orfanos <DimitriPapadopoulos>`, :issue:`369`.
 
 * Drop Python 3.7.
-  By :user:`John Kirkham <jakirkham>`,, :issue:`405` :issue:`406`.
+  By :user:`John Kirkham <jakirkham>`, :issue:`405` :issue:`406`.
 
 * Test with zfpy 1.0.0.
   By :user:`John Kirkham <jakirkham>`, :issue:`385`.
@@ -715,7 +715,7 @@ Maintenance
 * Automatically release to PyPI.
   By :user:`Josh Moore <joshmoore>`, :issue:`241`.
 
-* Build wheels on github actions.
+* Build wheels on GitHub Actions.
   By :user:`Grzegorz Bokota <Czaki>`, :issue:`224`.
 
 * Add Base64 codec.
