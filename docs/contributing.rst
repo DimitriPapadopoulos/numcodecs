@@ -148,7 +148,7 @@ docstrings. The simplest way to run the unit tests is to invoke::
 
     $ pytest -v
 
-NumCodecs currently supports Python 6-3.9, so the above command must
+NumCodecs currently supports Python 3.11+, so the above command must
 succeed before code can be accepted into the main code base.
 
 All tests are automatically run via Travis (Linux) and AppVeyor (Windows) continuous

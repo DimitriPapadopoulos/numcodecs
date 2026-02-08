@@ -51,7 +51,7 @@ and then install in editable mode using `pip`.::
     $ pip install -e .[test,msgpack,zfpy]
 
 Note: if you prefer to use the GitHub CLI ``gh`` you will need to append ``-- --recurse-submodules``
-to the clone command to everything works properly.
+to the clone command so everything works properly.
 
 To verify that Numcodecs has been fully installed (including the Blosc
 extension) run the test suite::
