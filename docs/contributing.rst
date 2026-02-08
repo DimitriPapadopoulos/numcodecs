@@ -46,7 +46,7 @@ a bug report:
     Python 3.8.15 | packaged by conda-forge | (default, Nov 22 2022, 08:49:06)
     [Clang 14.0.6 ] on darwin
 
-3. An explanation of why the current behavior is wrong/not desired, and what you
+3. An explanation of why the current behaviour is wrong/not desired, and what you
    expect instead.
 
 Enhancement proposals
