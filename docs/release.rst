@@ -12,11 +12,6 @@ Release notes
     ----------
 
 
-.. _unreleased:
-
-Unreleased
-----------
-
 .. _release_0.16.5:
 
 0.16.5
@@ -180,14 +175,14 @@ Enhancements
   By :user:`Agriya Khetarpal <agriyakhetarpal>`, :issue:`288`.
 * Preallocate output buffers and resize directly as needed.
   By :user:`John Kirkham <jakirkham>`, :issue:`656`
-* ``Checksum32`` is now an abstract base clase, with ``checksum()`` as an abstract method.
+* ``Checksum32`` is now an abstract base class, with ``checksum()`` as an abstract method.
   This helps ensure that any subclasses implement the ``checksum()`` method.
   :issue:`711`
 
 Removals
 ~~~~~~~~
 
-The following ``blosc`` funcitons are removed, with no replacement.
+The following ``blosc`` functions are removed, with no replacement.
 This is because they were not intended to be public API.
 
 - ``numcodecs.blosc.init``
@@ -198,7 +193,7 @@ This is because they were not intended to be public API.
 
 In addition, ``numcodecs.blosc.decompress_partial`` is removed as
 has always been experimental and there is no equivalent in the official
-blsoc Python package.
+blosc Python package.
 By :user:`David Stansby <dstansby>`, :issue:`712`
 
 Maintenance
@@ -248,7 +243,7 @@ This is because they are not intended to be public API.
 
 In addition, ``numcodecs.blosc.decompress_partial`` is deprecated as
 has always been experimental and there is no equivalent in the official
-blsoc Python package.
+blosc Python package.
 By :user:`David Stansby <dstansby>`, :issue:`619`
 
 Fixes
@@ -397,7 +392,7 @@ Maintenance
 * Add numpy 2 compatibility.
   By :user:`David Stansby <dstansby>`, :issue:`535`
 * Update c-blosc to 1.21.0 to 1.21.5, zstd from 1.4.8 to 1.5.5,
-  lz4 from 1.9.3 to 1.9.4, and zlib from 1.2.8 to to 1.2.13
+  lz4 from 1.9.3 to 1.9.4, and zlib from 1.2.8 to 1.2.13
   By :user:`Mark Kittisopikul <mkitti>`, :issue:`500`
 
 
@@ -483,7 +478,7 @@ Maintenance
   By :user:`Dimitri Papadopoulos Orfanos <DimitriPapadopoulos>`, :issue:`369`.
 
 * Drop Python 3.7.
-  By :user:`John Kirkham <jakirkham>`,, :issue:`405` :issue:`406`.
+  By :user:`John Kirkham <jakirkham>`, :issue:`405` :issue:`406`.
 
 * Test with zfpy 1.0.0.
   By :user:`John Kirkham <jakirkham>`, :issue:`385`.
